@@ -16,7 +16,8 @@ int main()
             else{
             cout<<"x="<<x<<endl;
             x=x+2;
-            cout<<"x="<<x<<endl;
+	    //Tu programa imprime dos veces dentro de la misma operación, esto hace que no haga lo que el diagrama pide. Sí lo comentas, el programa corre como se espera. 
+            //cout<<"x="<<x<<endl;
             }
   
 
